@@ -1,6 +1,6 @@
 using System;
 
-namespace web.Models
+namespace Certifications.Web.Models
 {
     public class ErrorViewModel
     {
