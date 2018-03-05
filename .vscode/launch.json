@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/web/bin/Debug/netcoreapp2.0/web.dll",
+            "program": "${workspaceRoot}/Web/bin/Debug/netcoreapp2.0/Certifications.Web.dll",
             "args": [],
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}/Web",
             "stopAtEntry": false,
             "launchBrowser": {
                 "enabled": true,
@@ -31,7 +31,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceRoot}/Views"
+                "/Views": "${workspaceRoot}/Web/Views"
             }
         },
         {
@@ -40,9 +40,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/api/bin/Debug/<target-framework>/api.dll",
+            "program": "${workspaceFolder}/Api/bin/Debug/netcoreapp2.0/Certifications.API.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/Api",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
