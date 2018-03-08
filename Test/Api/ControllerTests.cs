@@ -1,15 +1,15 @@
 using System;
 using Xunit;
-using api.Controllers;
+using Certifications.API.Controllers;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace test
+namespace Certifications.Test.API
 {
-    public class UnitTest1
+    public class ControllerTests
     {
         [Fact]
-        public void Test1()
+        public void ValuesControllerTest()
         {
             ValuesController controller = new ValuesController();
             var expected = "value1";

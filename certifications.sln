@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{E13EAE89-EC9F-45C5-8313-653374B6E737}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certifications.Test", "Test\Certifications.Test.csproj", "{E13EAE89-EC9F-45C5-8313-653374B6E737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{E52A9CCF-A8C6-4FA4-A9A6-8B78126DB856}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certifications.API", "Api\Certifications.API.csproj", "{E52A9CCF-A8C6-4FA4-A9A6-8B78126DB856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "data\data.csproj", "{4EEDA465-C5C4-418B-8FA0-03E83E1AEB33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certifications.Data", "Data\Certifications.Data.csproj", "{4EEDA465-C5C4-418B-8FA0-03E83E1AEB33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{E05A1A0F-5ED0-46E3-B7E8-8BC73B425B4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certifications.Web", "Web\Certifications.Web.csproj", "{E05A1A0F-5ED0-46E3-B7E8-8BC73B425B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

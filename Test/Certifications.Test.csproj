@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\data\data.csproj" />
-    <ProjectReference Include="..\api\api.csproj" />
-    <ProjectReference Include="..\web\web.csproj" />
+    <ProjectReference Include="..\Data\Certifications.Data.csproj" />
+    <ProjectReference Include="..\Api\Certifications.API.csproj" />
+    <ProjectReference Include="..\Web\Certifications.Web.csproj" />
   </ItemGroup>
 
 </Project>
